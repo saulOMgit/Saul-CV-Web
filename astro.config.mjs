@@ -8,6 +8,10 @@ import vercel from "@astrojs/vercel/serverless";
 // https://astro.build/config
 export default defineConfig({
   integrations: [tailwind(), icon(), compress()],
-  output: "server",
-  adapter: vercel()
+  site: 'https://saulomgit.github.io'
 });
+// export default defineConfig({
+//   integrations: [tailwind(), icon(), compress()],
+//   output: "server",
+//   adapter: vercel()
+// });
